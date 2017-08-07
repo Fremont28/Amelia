@@ -5,7 +5,8 @@
 ## How to install
 
 ### Installation requirements
-`Amelia` requires [R][] version 2.14.0 or higher. 
+`Amelia` requires [R][] version 2.14.0 or higher.
+The gfortran libraries are required for development work.
 
 ### Manual installation
 ```R
