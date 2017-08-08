@@ -23,8 +23,7 @@ test_that('check moPrep',{
   
   df <- data.frame(x, s)
   mop <- moPrep(df,s ~ s,error.proportion = vv)
-  browser()
-  a.out <- amelia(mop, parallel = 'no')
+  ##a.out <- amelia(mop, parallel = 'no')
   
   
 })
